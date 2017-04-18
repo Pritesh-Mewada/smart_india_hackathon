@@ -1,0 +1,67 @@
+.dataRow:nth-child(even){
+  background-color:	#D8FBFF  ;
+}
+
+.dataRow:nth-child(odd){
+  background-color:  #F6F8F8;
+
+}
+
+h4{
+  color: black;
+  font-weight: 600;
+  padding: 15px;
+}
+h3{
+  color:black;
+  font-weight: 600;
+}
+h3:hover{
+  color:white;
+}
+
+.dataRow {
+  height: 50px;
+
+}
+#tabs ul{
+  text-align: center;
+
+
+}
+
+#tabs ul li {
+  display: inline-block;
+  width:48%;
+  height: 60px;
+  padding: 20px;
+  color: white;
+  font-weight: 600;
+}
+#tabs ul li a::selection{
+  color: blue;
+
+}
+
+.list1:hover{
+  background-color: #00FFFF;
+  color: white;
+
+}
+
+.list2:hover{
+  background-color: #F10E1C;
+
+}
+
+#tabs ul li:nth-child(odd){
+  border: 1px solid #00FFFF;
+
+
+}
+
+#tabs ul li:nth-child(even){
+
+  border: 1px solid #F10E1C;
+
+}

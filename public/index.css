@@ -1,0 +1,38 @@
+#head{
+  height: 200px;
+  width: 100%;
+}
+
+#memberlist{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#logout{
+  position: relative;
+  float:right;
+  top:-160px;
+  right: 70px;
+}
+
+#memberlist li {
+  clear:right;
+  float: left;
+  width: 16.6%;
+  display: block;
+  color: white;
+  font-size: 18px;
+  font-style:bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none
+}
+#memberlist li:nth-child(even){
+  background: #F57C00;
+}
+
+#memberlist li:nth-child(odd){
+  background: #4CAF50;
+}
